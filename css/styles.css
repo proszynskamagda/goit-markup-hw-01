@@ -1,0 +1,162 @@
+body {
+  font-family: "Roboto", "Raleway";
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  font-weight: 400;
+}
+
+footer {
+  font-family: inherit;
+  background-color: #2e2f42;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+header {
+  font-family: inherit;
+  color: inherit;
+}
+
+h1 {
+  font-family: "Roboto";
+  weight: 700;
+  font-size: 56px;
+  letter-spacing: 2%;
+  line-height: 1.07;
+}
+
+h2 {
+  font-family: "Roboto";
+  weight: 700;
+  font-size: 36px;
+  letter-spacing: 2%;
+  line-height: 111%;
+}
+h3 {
+  font-family: "Roboto";
+  weight: 500;
+  font-size: 20px;
+  letter-spacing: 2%;
+  line-height: 120%;
+}
+a {
+  color: #4d5ae5;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 133%;
+  letter-spacing: 0.04em;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  font-style: normal;
+}
+
+a:hover a:focus {
+  color: #404bbf;
+}
+
+button {
+  background-color: #4d5ae5;
+  font-size: 16px;
+  font-family: "Roboto";
+  color: #ffffff;
+  letter-spacing: 4%;
+  weight: 500;
+  font-weight: 500;
+  line-height: 150%;
+  cursor: pointer;
+}
+button:hover,
+button:focus {
+  font-size: 16px;
+  font-family: "Roboto";
+  background-color: #404bbf;
+  color: #ffffff;
+  letter-spacing: 4%;
+  weight: 500;
+  line-height: 150%;
+}
+
+.small {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 117%;
+  letter-spacing: 0.04em;
+  color: inherit;
+}
+
+.medium {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: inherit;
+}
+
+.site-nav-link {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.site-nav-link:hover {
+  color: #404bbf;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.site-nav-link:active {
+  color: #404bbf;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-decoration: underline;
+}
+
+.address-link {
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  font-style: normal;
+  text-decoration: none;
+}
+.address-link:hover,
+.address-link:active {
+  color: #404bbf;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  font-style: normal;
+}
+.section-our-team {
+  background-color: #f4f4fd;
+}
+.web {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
+}
+.studio {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #2e2f42;
+}
